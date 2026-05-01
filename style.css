@@ -1,0 +1,397 @@
+@font-face{
+    font-family: "DancingScript";
+    src: url("fonts/DancingScript-VariableFont_wght.ttf");
+}
+
+@font-face{
+    font-family: "VarelaRound";
+    src: url("fonts/VarelaRound-Regular.ttf");
+}
+
+@font-face{
+    font-family: "FragmentMono";
+    src: url("fonts/FragmentMono-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src:url("fonts/Quicksand-Medium.ttf")
+}
+
+/* Signout & Signin */
+.wrapper{
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0, 23);
+    box-shadow: 0 0 17px rgb(25, 24, 24);
+    border-radius: 20px;
+}
+
+.main-body{
+    background-image: url("resource/main.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-color: #eb7222;
+}
+
+.logo{
+    background-image: url("resource/Logor.png");
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image{
+    background-image: url("resource/img.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title1{
+    font-size: 30px;
+    font-family: "DancingScript";
+}
+
+.title2{
+    font-size: 25px;
+    font-style: "VarelaRound";
+}
+/* Signout & Signin */
+
+/* header */
+.header_list{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.header_title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.list1 ul li{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: bold; 
+    position: relative;
+    
+}
+
+.list1 ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.list1 ul li:hover:after{
+    width: 100%;
+}
+/* header */
+
+/* home */
+.poster{
+    height:700px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption{
+    font-family: "VarelaRound";
+    margin-top: -380px;
+    margin-left: 130px;
+}
+/* home */
+
+/* Add Product */
+.pm{
+    height: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pm1{
+    background-image: url("resource/payment method images/american_express_img.png");
+}
+
+.pm2{
+    background-image: url("resource/payment method images/mastercard_img.png");
+}
+
+.pm3{
+    background-image: url("resource/payment method images/paypal_img.png");
+}
+
+.pm4{
+    background-image: url("resource/payment method images/visa_img.png");
+}
+/* Add Product */
+
+.emptyCart{
+    background-image: url("resource/emptycart.svg");
+    height: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.emptywatchlist{
+    height: 400px;
+    background-image: url("resource/watchlistEmptyView.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scroll{
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+
+/* admin Signin */
+.bg{    
+    margin: 0px;
+    background-image: url("resource/Admin.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.signin{
+    background: rgba(255, 255, 255, 0.486);
+    border-radius: 35px;
+}
+/* admin Signin */
+
+
+
+/* chat */
+aside input{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	padding:0 50px 0 20px;
+	background-color:#5e616a;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	background-repeat:no-repeat;
+	background-size:40px;
+}
+aside input::placeholder{
+	color:#fff;
+}
+aside ul{
+	padding-left:0;
+	margin:0;
+    display: block;
+	list-style-type:none;
+    overflow-x: hidden;
+	overflow-y:scroll;
+	height:600px;
+}
+aside li{
+	padding:10px 0;
+}
+aside li:hover{
+	background-color:#5e616a;
+}
+h2,h3{
+	margin:0;
+}
+aside li img{
+	border-radius:50%;
+	margin-left:20px;
+	margin-right:8px;
+}
+aside li div{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:12px;
+}
+aside li h2{
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+aside li h3{
+	font-size:12px;
+	color:#7e818a;
+	font-weight:normal;
+}
+
+.status{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	display:inline-block;
+	margin-right:7px;
+}
+.green{
+	background-color:#58b666;
+}
+.orange{
+	background-color:#ff725d;
+}
+.blue{
+	background-color:#6fbced;
+	margin-right:0;
+	margin-left:7px;
+}
+
+#chat{
+	padding-left:0;
+	margin:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	height:523px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+#chat li{
+	padding:10px 30px;
+}
+#chat h2,#chat h3{
+	display:inline-block;
+	font-size:13px;
+	font-weight:normal;
+}
+#chat h3{
+	color:#bbb;
+}
+#chat .entete{
+	margin-bottom:5px;
+}
+#chat .message{
+	padding:20px;
+	color:#fff;
+	line-height:25px;
+	max-width:90%;
+	display:inline-block;
+	text-align:left;
+	border-radius:5px;
+}
+#chat .me{
+	text-align:right;
+}
+#chat .you .message{
+	background-color:#58b666;
+}
+#chat .me .message{
+	background-color:#6fbced;
+}
+#chat .triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+}
+#chat .you .triangle{
+		border-color: transparent transparent #58b666 transparent;
+		margin-left:15px;
+}
+#chat .me .triangle{
+		border-color: transparent transparent #6fbced transparent;
+		margin-left:790px;
+}
+
+.scroll{
+    overflow-x: hidden;
+}
+/* chat */
+
+
+/* preloader */
+
+    /*loader1 css begins*/
+    .main-wrap {
+        background-color:#000000c0;
+        background-size: 260px;
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+        justify-content:center;
+        align-items:center; 
+    }
+
+    .cssLoader17 {
+    position: center;
+    width: 2.5em;
+    height: 2.5em;
+    transform: rotate(165deg);
+    }
+    .cssLoader17:before, .cssLoader17:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 1em;
+    transform: translate(-50%, -50%);
+    }
+    .cssLoader17:before {
+    animation: before 2s infinite;
+    }
+    .cssLoader17:after {
+    animation: after 2s infinite;
+    }
+
+    @keyframes before {
+    0% {
+    width: 0.5em;
+    box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+    }
+    35% {
+    width: 2.5em;
+    box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
+    }
+    70% {
+    width: 0.5em;
+    box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
+    }
+    100% {
+    box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
+    }
+    }
+    @keyframes after {
+    0% {
+    height: 0.5em;
+    box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+    }
+    35% {
+    height: 2.5em;
+    box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
+    }
+    70% {
+    height: 0.5em;
+    box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
+    }
+    100% {
+    box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
+    }
+    }
+    .loader {
+    position: absolute;
+    top: calc(50% - 1.25em);
+    left: calc(50% - 1.25em);
+    }
+/* preloader */
+
+
+
+
+
+
+

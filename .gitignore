@@ -1,0 +1,5 @@
+.idea/
+connection.php
+*.log
+vendor/
+node_modules/
