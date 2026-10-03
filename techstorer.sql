@@ -512,7 +512,7 @@ CREATE TABLE IF NOT EXISTS `user` (
 
 INSERT INTO `user` (`email`, `fname`, `lname`, `password`, `mobile`, `joined_date`, `varification_code`, `status`, `gender_id`, `description`) VALUES
 	('akilagimhana20051122@gmail.com', 'Akila2', 'Gimhana', '123456', '0764012266', '2023-02-03 07:30:14', NULL, 1, 1, NULL),
-	('akilagimhana2005@gmail.com', 'Akila', 'Gimhana', '00000', '0764012265', '2022-11-12 18:02:23', '63efcded18237', 0, 1, 'Hi'),
+	('akilagimhana2005@gmail.com', 'Akila', 'Gimhana', '00000', '0710000000', '2022-11-12 18:02:23', '63efcded18237', 0, 1, 'Hi'),
 	('kavishkadevinda0@gmail.com', 'Kavishka', 'Devinda', '1234567890', '0763454353', '2022-11-15 18:02:25', '6491b3b050c0a', 0, 1, NULL),
 	('merajlakvidu2005@gmail.com', 'Meraj ', 'Lakvindu', '1234567890', '0763454350', '2022-11-21 14:57:13', NULL, 0, 2, NULL);
 
